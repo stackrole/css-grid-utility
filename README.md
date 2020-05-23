@@ -1,5 +1,5 @@
 # CSS Grid Utility 
-A simple CSS Grid utility library built with SCSS. Creates 3 columns by deafult for . Follows bootstrap media query breakpoints and it mobile first.
+A simple CSS Grid utility library built with SCSS. Creates 3 columns by deafult for . Follows bootstrap media query breakpoints and it mobile first. This does not add any presentational CSS, just CSS grid template columns with grid-gap.
 
 Just include the CSS or SCSS file into you project and Start using it. 
 
@@ -31,4 +31,4 @@ As this is my version of adoptation from bootstrap breakpoint. A copy-paste of s
 | # of Columns | 3 |
 | Grid Gap | 2rem |
 
-If you like this utility, Feel free to use it in your project. Happy to recieve feedback and contributions ofcourse :)
+If you like this utility library, Feel free to use it in your project. Happy to recieve feedback and contributions ofcourse :)
