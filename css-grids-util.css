@@ -1,0 +1,61 @@
+:root {
+  --grid-gap: 2rem; // Control grid gap here
+}
+
+.grids {
+  display: grid;
+  grid-gap: var(--grid-gap);
+}
+.grids.col-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.grids.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grids.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (min-width: 576px) {
+  .grids.sm-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grids.sm-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grids.sm-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .grids.md-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grids.md-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grids.md-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .grids.lg-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grids.lg-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grids.lg-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .grids.xl-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grids.xl-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grids.xl-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
